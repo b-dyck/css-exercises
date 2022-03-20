@@ -5,11 +5,14 @@ body {
 img {
   width: 100px;
   height: 100px;
+  align-self: center;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  align-self: center;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -23,4 +26,30 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.plant-holder{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+
+}
+
+.grand-holder, .plant-one, .plant-two, .plant-three, .plant-four {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.plant-one, .plant-two, .plant-three, .plant-four {
+  width: 200px;
+  flex-direction: column;
+  flex: 1,0, auto;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+.text {
+  text-align: center;
 }
